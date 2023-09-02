@@ -27,8 +27,8 @@ public class Ejer01Application {
 		return args -> {
 			System.out.println("-----------------ESTOY FUNCIONANDO---------");
 			Persona persona = new Persona();
-			persona.setNombre("Juan");
-			persona.setApellido("Pérez");
+			persona.setNombre("Franco");
+			persona.setApellido("Fonollá");
 			persona.setEdad(30);
 
 			// Guardar el objeto Persona en la base de datos

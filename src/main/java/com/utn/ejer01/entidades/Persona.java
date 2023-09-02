@@ -2,6 +2,7 @@ package com.utn.ejer01.entidades;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,7 +20,7 @@ public class Persona implements Serializable {
 
 
     @Id
-    @GeneratedValue
+    @GeneratedValue()
     private Long id;
 
     private String nombre;
